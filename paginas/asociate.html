@@ -10,7 +10,8 @@
     <title>Asociate a Napoli</title>
 
     <meta name="description" content="Todo el universo Napoli en un solo lugar ... ¿Aún no te asociaste? ¡Asociate acá! ... Todos los derechos reservados.">
-    <meta name="keywords" content="Napoli, Oshimen, napoli partidos, serie A, Maradona, asociate a napoli">
+    <meta name="keywords" content="asociarse Napoli, membresía Napoli, unirse al Club Napoli, beneficios de ser socio, registro Napoli, comunidad Napoli, tifosi Napoli, eventos Napoli, descuentos Napoli, participar Napoli, ser parte de Napoli">
+
 </head>
 <body>
     <header> 
@@ -27,120 +28,117 @@
     </header>
 
 
-    <main id="socios-napoli">
 
-        <section class="row container-fluid" id="cont-registro">
-            <article class="col-lg-6  col-sm-12" id="registro">
+
+    <main class="row container-fluid" id="cont-registro">
+        <section class="col-lg-6  col-sm-12" id="registro">
+            <br>
+            <label for="" class="form-label">Ingrese su email</label>
+            <input type="email" class="form-control" id="cont-email">
+            
+            <div id="emailHelp" class="form-texto">Nunca compartiremos su correo electrónico <br> con nadie más.</div>
+            <br>
+
+            <label for="" class="form-label"> Ingrese su contraseña</label>
+                <input type="password" class="form-control" id="cont-contraseña">
                 <br>
-                <label for="" class="form-label">Ingrese su email</label>
-                <input type="email" class="form-control" id="cont-email">
-                
-                <div id="emailHelp" class="form-texto">Nunca compartiremos su correo electrónico <br> con nadie más.</div>
+
+                <label for="" class="form-label">Ingrese su documento</label>
+                <input type="documento" class="form-control" id="cont-dni">
                 <br>
-    
-                <label for="" class="form-label"> Ingrese su contraseña</label>
-                  <input type="password" class="form-control" id="cont-contraseña">
-                  <br>
-    
-                  <label for="" class="form-label">Ingrese su documento</label>
-                    <input type="documento" class="form-control" id="cont-dni">
+
+                <select class="form-select form-select-sm" aria-label="Small select example" id="cont-cat">
+                    <option selected> Seleccione categoria</option>
+                    <option value="1">Simple</option>
+                    <option value="2">Pleno</option>
+                    <option value="3">Cadete</option>
+                    </select>
                     <br>
-    
-                    <select class="form-select form-select-sm" aria-label="Small select example" id="cont-cat">
-                        <option selected> Seleccione categoria</option>
-                        <option value="1">Simple</option>
-                        <option value="2">Pleno</option>
-                        <option value="3">Cadete</option>
-                      </select>
-                      <br>
-                      <input type="checkbox" class="form-check-input" id="confirm" >
-                    <label class="form--label" >Acepto terminos y condiciones</label>
-    
-                    <button type="submit" class="btn btn-primary" id="boton-enviar">Enviar</button>
-            </article>
-            <article class="col-lg-6  col-sm-12">
-                <br>
-                <img src="../assets/imagenes/socios.png" alt="">
-            </article>
+                    <input type="checkbox" class="form-check-input" id="confirm" >
+                <label class="form--label" >Acepto terminos y condiciones</label>
+
+                <button type="submit" class="btn btn-primary" id="boton-enviar">Enviar</button>
         </section>
-    
-    
-    
-        <section class="row container-fluid" id="cont-socios">
-            <article class="col-lg-4 col-sm-12" id="socios-pleno">
-                <h3 class="titulos-socios">Socio pleno</h2>
-                    <p>Ser socio pleno ofrece varias ventajas clave: acceso exclusivo a recursos, una red de contactos que facilita oportunidades, participación activa en decisiones, beneficios económicos como descuentos, desarrollo personal a través de capacitaciones y un sentido de pertenencia a una comunidad. En resumen, enriquece tu vida personal y profesional.</p>
-            </article>
-            <article class="col-lg-4 col-sm-12" id="socios-simple">
-                <h3 class="titulos-socios">Socio simple</h3>
-                <p>Ser socio simple ofrece ventajas como acceso a información actualizada, participación en actividades sin gestión, y un costo reducido. Permite establecer conexiones con otros miembros y, si lo deseas, puedes evolucionar a socio pleno en el futuro. En resumen, disfrutas de los beneficios de pertenecer a una comunidad con un compromiso menor y accesible.</p>
-            </article>
-            <article class="col-lg-4 col-sm-12" id="socios-cadete">
-                <h3 class="titulos-socios">Socio cadete</h3>
-    
-    Ser socio cadete ofrece varias ventajas. Primero, la membresía suele ser más económica, lo que la hace accesible. También permite acceder a actividades y eventos diseñados para jóvenes, fomentando el aprendizaje y el crecimiento personal. Además, brinda la oportunidad de establecer conexiones con otros jóvenes que comparten intereses similares. Por último, hay la posibilidad de avanzar a membresías superiores en el futuro.
-            </article>
+        <section class="col-lg-6  col-sm-12">
+            <br>
+            <img src="../assets/imagenes/socios.png" alt="">
         </section>
-    
-    
-    
-        <section class="row container-fluid" id="tabla-precios">
-            <article class="col-lg-6 col-sm-12" id="cont-tabla" >
-                <thead>
-                    <h4 id="cuotas">Cuotas sociales</h4>
-                  
-                </thead>
-                
-                <div id="cont-tabla">
-    
-                    <table class="table table-dark" id="tabla" >
-                        
-                        <tbody>
-                           
-                          
-                          
-                          <tr>
-                            <th scope="row">Socio pleno</th>
-                            <td colspan="2" class="table-active">$450</td>
-                            <th scope="row">Socio simple</th>
-                            <td colspan="2"  class="table-active">$350</td>
-                            <th scope="row">Socio cadete</th>
-                            <td colspan="2"  class="table-active">$50</td>
-                          </tr>
-                         
-                        </tbody>
-                      </table>
-                </div>
-            </article>
-               
-            <article class="col-lg-6 col-sm-12" id="cont-mapa">
-                <div>
-                    <h4 id="nombre">Estadio Diego Armando Maradona</h4>
-                </div>
-                
-                <div id="mapa-">
-                    <iframe id="mapa"
-                        
-                        
-                    
-                        src="https://maps.app.goo.gl/PM2rhMcGgyJcZUJp8"
-                        width="600"
-                        height="450"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"></iframe>
-    
-    
-    
-                </div>
-                
-            </article>
-        </section>
-
-
-
-
     </main>
+
+
+
+    <section class="row container-fluid" id="cont-socios">
+        <article class="col-lg-4 col-sm-12" id="socios-pleno">
+            <h3 class="titulos-socios">Socio pleno</h2>
+                <p>Ser socio pleno ofrece varias ventajas clave: acceso exclusivo a recursos, una red de contactos que facilita oportunidades, participación activa en decisiones, beneficios económicos como descuentos, desarrollo personal a través de capacitaciones y un sentido de pertenencia a una comunidad. En resumen, enriquece tu vida personal y profesional.</p>
+        </article>
+        <article class="col-lg-4 col-sm-12" id="socios-simple">
+            <h3 class="titulos-socios">Socio simple</h3>
+            <p>Ser socio simple ofrece ventajas como acceso a información actualizada, participación en actividades sin gestión, y un costo reducido. Permite establecer conexiones con otros miembros y, si lo deseas, puedes evolucionar a socio pleno en el futuro. En resumen, disfrutas de los beneficios de pertenecer a una comunidad con un compromiso menor y accesible.</p>
+        </article>
+        <article class="col-lg-4 col-sm-12" id="socios-cadete">
+            <h3 class="titulos-socios">Socio cadete</h3>
+
+Ser socio cadete ofrece varias ventajas. Primero, la membresía suele ser más económica, lo que la hace accesible. También permite acceder a actividades y eventos diseñados para jóvenes, fomentando el aprendizaje y el crecimiento personal. Además, brinda la oportunidad de establecer conexiones con otros jóvenes que comparten intereses similares. Por último, hay la posibilidad de avanzar a membresías superiores en el futuro.
+        </article>
+    </section>
+
+
+
+    <section class="row container-fluid" id="tabla-precios">
+        <article class="col-lg-6 col-sm-12" id="cont-tabla" >
+            <thead>
+                <h4 id="cuotas">Cuotas sociales</h4>
+                
+            </thead>
+            
+            <div id="cont-tabla">
+
+                <table class="table table-dark" id="tabla" >
+                    
+                    <tbody>
+                        
+                        
+                        
+                        <tr>
+                        <th scope="row">Socio pleno</th>
+                        <td colspan="2" class="table-active">$450</td>
+                        <th scope="row">Socio simple</th>
+                        <td colspan="2"  class="table-active">$350</td>
+                        <th scope="row">Socio cadete</th>
+                        <td colspan="2"  class="table-active">$50</td>
+                        </tr>
+                        
+                    </tbody>
+                    </table>
+            </div>
+        </article>
+            
+        <article class="col-lg-6 col-sm-12" id="cont-mapa">
+            <div>
+                <h4 id="nombre">Estadio Diego Armando Maradona</h4>
+            </div>
+            
+            <div id="mapa-">
+                <iframe id="mapa"
+                    
+                    
+                
+                    src="https://maps.app.goo.gl/PM2rhMcGgyJcZUJp8"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"></iframe>
+
+
+
+            </div>
+            
+        </article>
+    </section>
+
+
 
 
 
